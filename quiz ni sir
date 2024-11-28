@@ -1,0 +1,90 @@
+import java.util.Scanner;
+
+     public class activity {
+       public static void main(String args[]) {
+         
+         
+Scanner scan = new Scanner (System.in);
+         
+  System.out.print("ENTER STUDENT NAME:");
+  String name =scan.nextLine();
+         
+  System.out.print("ENTER STUDENT NUMBER:");
+  int num =scan.nextInt();
+         
+         scan.nextLine();
+         System.out.println("AVAILABLE COURSES:");
+  
+         
+         System.out.println("BSN");
+         System.out.println("BSIS");
+         System.out.println("BSCE");
+         
+         System.out.print("SELECT COURSE:");
+ String course =scan.nextLine();
+         
+  System.out.println("AVAILABLE SECTION:");
+         
+         System.out.println("112");
+         System.out.println("102");
+         System.out.println("103");
+         
+         System.out.print("SELECT SECTION:");
+  String sec =scan.nextLine();
+         
+         
+         System.out.print("ENTER STUDENT NAME:");
+  String namee =scan.nextLine();
+         
+  System.out.print("ENTER STUDENT NUMBER:");
+  int number =scan.nextInt();
+         
+         scan.nextLine();
+         System.out.println("AVAILABLE COURSES:");
+  
+         
+         System.out.println("BSN");
+         System.out.println("BSIS");
+         System.out.println("BSCE");
+         
+         System.out.print("SELECT COURSE:");
+ String courses =scan.nextLine();
+         
+  System.out.println("AVAILABLE SECTION:");
+         
+         System.out.println("112");
+         System.out.println("102");
+         System.out.println("103");
+         
+         System.out.print("SELECT SECTION:");
+  String section =scan.nextLine();
+         
+         System.out.println("SUMMARY OF ENROLLMENT");
+         
+         System.out.println("STUDENT 1");
+         System.out.println("STUDENT NAME:"+name);
+         System.out.println("STUDENT NUMBER:"+num);
+         System.out.println("COURSE:"+course);
+         System.out.println("SECTION:"+sec);
+         
+         System.out.println("STUDENT 2");
+         System.out.println("STUDENT NAME:"+namee);
+         System.out.println("STUDENT NUMBER:"+number);
+         System.out.println("COURSE:"+courses);
+         System.out.println("SECTION:"+section);
+         
+         System.out.print("\nIS THERE INFORMATION CONNECT (Y/N): ");
+         String connectResponse = scan.nextLine();
+ 
+         if (connectResponse.equalsIgnoreCase("Y")) {
+             System.out.println("Thank you!");
+         } else {
+             System.out.println("Enroll again next time.");
+         }
+ 
+         scan.close(); // Close the scanner
+     }
+
+    
+    }
+ 
